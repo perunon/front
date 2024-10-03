@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+	body {
+		@apply text-primary overflow-x-hidden font-sans;
+	}
+
+	.container {
+		@apply !max-w-[1027px];
+	}
+}
+
+.swiper {
+	overflow: visible !important;
+}
